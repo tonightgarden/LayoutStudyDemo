@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tg.layoutstudydemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".layout.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".layout.activity.LinearLayoutActivity"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".layout.activity.LinearlayoutActivity"
+            android:label="@string/title_activity_linearlayout" >
+        </activity>
+        <activity
+            android:name=".layout.activity.Linearlayout2Activity"
+            android:label="@string/title_activity_linearlayout2" >
+        </activity>
+        <activity
+            android:name=".layout.activity.FrameLayoutActivity"
+            android:label="@string/title_activity_frame_layout" >
+        </activity>
+        <activity
+            android:name=".layout.activity.RelativeLayoutActivity"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".layout.activity.TablelayoutActivity"
+            android:label="@string/title_activity_tablelayout" >
+        </activity>
+        <activity
+            android:name=".layout.activity.AbsoluteLayoutActivity"
+            android:label="@string/title_activity_absolute_layout" >
+        </activity>
+        <activity
+            android:name=".home.StudyHomeActivity"
+            android:label="@string/title_activity_study_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.WidgetsStudyActivity"
+            android:label="@string/title_activity_widgets_study" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.TextViewActivity"
+            android:label="@string/title_activity_text_view" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.ButtonStudyActivity"
+            android:label="@string/title_activity_button_study" >
+        </activity>
+    </application>
+
+</manifest>

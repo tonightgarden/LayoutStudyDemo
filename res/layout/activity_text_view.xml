@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/text_linear"
+    >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+    
+    
+     <TextView 
+       style="@style/my_text_style"
+        />
+    
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:maxWidth="100dp"
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:maxWidth="150dp"
+        android:singleLine="true"
+        />
+   
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHighlight="@android:color/holo_red_light"
+        android:editable="true"
+        />
+    
+       <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:text="我是 TextView"
+        android:gravity="center"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+       
+         <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:drawableTop="@drawable/ic_launcher"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawableEnd="@drawable/ic_launcher"
+        android:drawablePadding="10dp"
+        />
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:textScaleX="1.5"
+        />
+         
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:text="991533789@qq.com"
+        android:autoLink="email"
+        />
+          
+           <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_red_light"
+        android:hint="我是 hint"
+        />
+           
+              <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是 TextViewn你杀死少时诵诗书横说竖说设计师及所涉及计算机设计师实话实说"
+        android:singleLine="true"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true" 
+        android:focusable="true"
+        />
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:password="true"
+        />
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:shadowDx="10"
+        android:shadowDy="10"
+         android:shadowRadius="3"
+        android:shadowColor="@android:color/holo_blue_dark"
+        />
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:padding="20dp"
+        />
+           <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:scaleX="2"
+        android:scaleY="2"
+        />
+              <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是 TextView"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        android:background="@drawable/textview_style"
+        />
+           
+           
+    
+</LinearLayout>

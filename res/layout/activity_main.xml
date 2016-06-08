@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tg.layoutstudydemo.layout.activity.MainActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        
+        <Button  
+            android:id="@+id/bt_linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout"
+            android:textSize="@dimen/my_text_size"
+           />
+          <Button  
+            android:id="@+id/bt_linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout2"
+              android:textSize="@dimen/my_text_size"
+           />
+        
+        <Button  
+             android:id="@+id/bt_relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relativeLayout"
+              android:textSize="@dimen/my_text_size"
+           />
+        <Button  
+             android:id="@+id/bt_frameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frameLayout"
+              android:textSize="@dimen/my_text_size"
+           />
+        <Button  
+             android:id="@+id/bt_tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tableLayout"
+              android:textSize="@dimen/my_text_size"
+           />
+        <Button  
+             android:id="@+id/bt_absoluteLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/absoluteLayout"
+              android:textSize="@dimen/my_text_size"
+           />
+    </LinearLayout>
+    
+
+</RelativeLayout>

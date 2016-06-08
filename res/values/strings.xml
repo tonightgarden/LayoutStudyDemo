@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutStudyDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="linearLayout">linearLayout</string>
+    <string name="linearLayout2">linearLayout2</string>
+    <string name="relativeLayout">relativeLayout</string>
+    <string name="frameLayout">frameLayout</string>
+    <string name="tableLayout">tableLayout</string>
+    <string name="absoluteLayout">absoluteLayout</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_linearlayout">LinearlayoutActivity</string>
+    <string name="title_activity_linearlayout2">Linearlayout2Activity</string>
+    <string name="title_activity_frame_layout">FrameLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+    <string name="title_activity_tablelayout">TablelayoutActivity</string>
+    <string name="title_activity_absolute_layout">AbsoluteLayoutActivity</string>
+    <string name="title_activity_study_home">StudyHomeActivity</string>
+
+    <string-array name="home_data">
+        <item>Five Layout Study</item>
+        <item>All Widgets</item>
+    </string-array>
+    <string-array name="widget_data">
+        <item>Textview</item>
+          <item>Button</item>
+    </string-array>
+
+    <string name="title_activity_widgets_study">WidgetsStudyActivity</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="title_activity_button_study">ButtonStudyActivity</string>
+
+</resources>
