@@ -21,6 +21,7 @@ public class WidgetsStudyActivity extends Activity {
 	private ListView home_listview;
 	String [] data;
 	private int add;
+	private int add;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
