@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
 import android.widget.Toast;
 
 public class ButtonStudyActivity extends Activity implements OnClickListener {
@@ -43,8 +45,35 @@ public class ButtonStudyActivity extends Activity implements OnClickListener {
 		MyonclickListener mMyonclickListener = new MyonclickListener();
 		button4.setOnClickListener(mMyonclickListener);
 		
+		init();
+		
 	}
 	    
+	    
+	private void init() {
+		
+		LinearLayout linear_content = (LinearLayout) findViewById(R.id.linear_content);
+		
+		for(int i=0;i<3;i++)
+		{
+			LinearLayout linear = new LinearLayout(this);
+			linear.setOrientation(LinearLayout.HORIZONTAL);
+			for(int j=0;j<3;j++)
+			{
+				Button button = new Button(this);
+				button.setText(""+i+"-"+j);
+				LinearLayout.LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+					LayoutParams.WRAP_CONTENT, 1);
+				linear.addView(button, params);
+				button.setOnClickListener(this);
+				button.setTag(""+i+" - "+j);
+			}
+			linear_content.addView(linear);
+		}
+		
+		    
+	}
+
 	@Override
 	public void onClick(View v) {
 		
@@ -60,6 +89,7 @@ public class ButtonStudyActivity extends Activity implements OnClickListener {
 			  Toast.makeText(ButtonStudyActivity.this, "button3", Toast.LENGTH_SHORT).show();	
 			break;
 		default:
+			 Toast.makeText(ButtonStudyActivity.this, ""+v.getTag(), Toast.LENGTH_SHORT).show();	
 			break;
 		}
 	}
