@@ -25,7 +25,6 @@ public class WidgetsStudyActivity extends Activity {
 	
 	public static final int REQUEST_CODE = 1;
 	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -52,6 +51,9 @@ public class WidgetsStudyActivity extends Activity {
 					toActivity(ButtonStudyActivity.class);
 					break;
 
+				case 2:
+					toActivity(EditTextActivity.class);
+					break;
 				default:
 					break;
 				}

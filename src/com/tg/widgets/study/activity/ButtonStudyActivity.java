@@ -1,10 +1,18 @@
 package com.tg.widgets.study.activity;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.tg.layoutstudydemo.R;
 import com.tg.layoutstudydemo.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -96,8 +104,11 @@ public class ButtonStudyActivity extends Activity implements OnClickListener {
 	
 	public void button5Clicked(View view)
 	{
-		 Toast.makeText(ButtonStudyActivity.this, "button5", Toast.LENGTH_SHORT).show();	  
+		 Toast.makeText(ButtonStudyActivity.this, "button5", Toast.LENGTH_SHORT).show();	
 	}
+	
+	
+	
 	
 	class MyonclickListener implements OnClickListener{
 		    

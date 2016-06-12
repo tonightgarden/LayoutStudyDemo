@@ -8,6 +8,11 @@
         android:minSdkVersion="18"
         android:targetSdkVersion="18" />
 
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -65,6 +70,10 @@
         <activity
             android:name="com.tg.widgets.study.activity.ButtonStudyActivity"
             android:label="@string/title_activity_button_study" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.EditTextActivity"
+            android:label="@string/title_activity_edit_text" >
         </activity>
     </application>
 
