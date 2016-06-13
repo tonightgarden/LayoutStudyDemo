@@ -51,8 +51,10 @@ public class StudyHomeActivity extends Activity {
 	private void toActivity(Class<?> cls)
 	{
 		Intent mIntent = new Intent();
-		mIntent.setClass(this, cls);
+		
+		mIntent.setClass(StudyHomeActivity.this, cls);
 		startActivity(mIntent);
+		overridePendingTransition(R.drawable.activity_in, R.drawable.activity_out);
 	}
 	
 	

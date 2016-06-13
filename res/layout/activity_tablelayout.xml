@@ -12,7 +12,8 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:shrinkColumns="1"
-         android:stretchColumns="2" >
+         android:stretchColumns="2" 
+         >
  
          <!-- 直接添加按钮，自己占用一行 -->
  
@@ -54,7 +55,9 @@
          android:id="@+id/tablelayout02"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:collapseColumns="1" >
+         android:collapseColumns="1" 
+          android:stretchColumns="2" 
+         >
  
          <TableRow>
  
