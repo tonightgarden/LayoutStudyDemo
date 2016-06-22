@@ -26,12 +26,16 @@
     <string-array name="widget_data">
         <item>Textview</item>
         <item>Button</item>
-         <item>EditText</item>
+        <item>EditText</item>
+        <item>ImageView</item>
+        <item>ProcessBar</item>
     </string-array>
 
     <string name="title_activity_widgets_study">WidgetsStudyActivity</string>
     <string name="title_activity_text_view">TextViewActivity</string>
     <string name="title_activity_button_study">ButtonStudyActivity</string>
     <string name="title_activity_edit_text">EditTextActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_process_bar">ProcessBarActivity</string>
 
 </resources>

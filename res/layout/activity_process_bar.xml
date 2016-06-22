@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     
+    <Button 
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        />
+    
+    <TextView 
+        android:id="@+id/text_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        />
+    
+
+    <ProgressBar  
+        android:id="@+id/firstBar"  
+        style="?android:attr/progressBarStyleHorizontal"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:max="200"  
+        android:maxHeight="48dp"  
+        android:minHeight="48dp"  
+        android:progress="0"  
+        />  
+        
+       <ProgressBar  
+        android:id="@+id/firstBar2"  
+        style="?android:attr/progressBarStyleLarge"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:max="200"  
+        android:progress="0"  
+         />  
+
+</LinearLayout>

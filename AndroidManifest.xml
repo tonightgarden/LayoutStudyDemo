@@ -75,6 +75,14 @@
             android:name="com.tg.widgets.study.activity.EditTextActivity"
             android:label="@string/title_activity_edit_text" >
         </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.ImageViewActivity"
+            android:label="@string/title_activity_image_view" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.ProcessBarActivity"
+            android:label="@string/title_activity_process_bar" >
+        </activity>
     </application>
 
 </manifest>

@@ -54,6 +54,12 @@ public class WidgetsStudyActivity extends Activity {
 				case 2:
 					toActivity(EditTextActivity.class);
 					break;
+				case 3:
+					toActivity(ImageViewActivity.class);
+					break;
+				case 4:
+					toActivity(ProcessBarActivity.class);
+					break;
 				default:
 					break;
 				}
