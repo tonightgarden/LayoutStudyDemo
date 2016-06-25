@@ -15,6 +15,35 @@
         />
     
     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/more_linear"
+        
+         >
+        
+         <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more1"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+         
+          <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more2"
+        android:textSize="@dimen/my_text_size"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+        
+        
+    </LinearLayout>
+    
+    
+    
      <TextView 
        style="@style/my_text_style"
         />
@@ -68,7 +97,7 @@
         android:drawableTop="@drawable/ic_launcher"
         android:drawableLeft="@drawable/ic_launcher"
         android:drawableEnd="@drawable/ic_launcher"
-        android:drawablePadding="10dp"
+        android:drawablePadding="50dp"
         />
           <TextView 
         android:layout_width="wrap_content"

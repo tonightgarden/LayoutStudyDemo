@@ -15,6 +15,7 @@ import android.widget.TextView;
 public class TextViewActivity extends Activity  {
 
 	LinearLayout text_linear ;
+	//LinearLayout more_linear;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +26,26 @@ public class TextViewActivity extends Activity  {
 		
 		text_linear = (LinearLayout) findViewById(R.id.text_linear);
 		
+	//	more_linear =(LinearLayout) findViewById(R.id.more_linear);
+		
+		
 		TextView mTextView = new TextView(this);
-		mTextView.setText(str);
+		mTextView.setText(str+"1");
 		mTextView.setTextSize(40);
 		mTextView.setTextColor(Color.GREEN);
 		//text_linear.addView(mTextView);
-		text_linear.addView(mTextView, 1);
+		text_linear.addView(mTextView, 2);
+		
+		LinearLayout linear = (LinearLayout) text_linear.getChildAt(1);
+		
+		
+		TextView mTextView2 = new TextView(this);
+		mTextView2.setText(str+"2");
+		mTextView2.setTextSize(40);
+		mTextView2.setTextColor(Color.GREEN);
+		
+		linear.addView(mTextView2,1);
+		
 	}
 	
 	

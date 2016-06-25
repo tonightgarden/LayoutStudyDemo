@@ -60,6 +60,15 @@ public class WidgetsStudyActivity extends Activity {
 				case 4:
 					toActivity(ProcessBarActivity.class);
 					break;
+				case 5:
+					toActivity(SeekBarActivity.class);
+					break;
+				case 6:
+					toActivity(ImageViewButtonActivity.class);
+					break;
+				case 7:
+					toActivity(RadioButtonAndCheckBoxActivity.class);
+					break;
 				default:
 					break;
 				}

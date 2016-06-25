@@ -83,6 +83,18 @@
             android:name="com.tg.widgets.study.activity.ProcessBarActivity"
             android:label="@string/title_activity_process_bar" >
         </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.SeekBarActivity"
+            android:label="@string/title_activity_seek_bar" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.ImageViewButtonActivity"
+            android:label="@string/title_activity_image_view_button" >
+        </activity>
+        <activity
+            android:name="com.tg.widgets.study.activity.RadioButtonAndCheckBoxActivity"
+            android:label="@string/title_activity_radio_button_and_check_box" >
+        </activity>
     </application>
 
 </manifest>

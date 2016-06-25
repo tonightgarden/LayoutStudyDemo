@@ -53,8 +53,6 @@ public class ProcessBarActivity extends Activity {
 		text_process = (TextView) findViewById(R.id.text_process);
 		
 		firstBar.setMax(MAX);
-		
-		
 		start.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
