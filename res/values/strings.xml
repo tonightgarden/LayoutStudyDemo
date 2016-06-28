@@ -22,6 +22,7 @@
     <string-array name="home_data">
         <item>Five Layout Study</item>
         <item>All Widgets</item>
+        <item>ListView</item>
     </string-array>
     <string-array name="widget_data">
         <item>Textview</item>
@@ -31,21 +32,19 @@
         <item>ProcessBar</item>
         <item>SeekBar</item>
         <item>ImageViewButton</item>
-         <item>RadioButtonAndCheckBox</item>
+        <item>RadioButtonAndCheckBox</item>
     </string-array>
-    
-     <string name="hello">Hello, I am harvey!</string>  
-      <!-- 性别组的文本 -->  
-    <string name="gender">性别</string>  
-    <string name="male">男</string>  
-    <string name="female">女</string>  
-    <!-- 爱好组的文本 -->  
-    <string name="hobby">爱好</string>  
-    <string name="swim">游泳</string>  
-    <string name="run">跑步</string>  
-    <string name="read">阅读</string>  
-    
 
+    <string name="hello">Hello, I am harvey!</string>
+    <!-- 性别组的文本 -->
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <!-- 爱好组的文本 -->
+    <string name="hobby">爱好</string>
+    <string name="swim">游泳</string>
+    <string name="run">跑步</string>
+    <string name="read">阅读</string>
     <string name="title_activity_widgets_study">WidgetsStudyActivity</string>
     <string name="title_activity_text_view">TextViewActivity</string>
     <string name="title_activity_button_study">ButtonStudyActivity</string>
@@ -55,5 +54,11 @@
     <string name="title_activity_seek_bar">SeekBarActivity</string>
     <string name="title_activity_image_view_button">ImageViewButtonActivity</string>
     <string name="title_activity_radio_button_and_check_box">RadioButtonAndCheckBoxActivity</string>
+    <string name="title_activity_simaple_list_view">SimapleListViewActivity</string>
+    <string name="title_activity_simaple_text_list_view">SimapleTextListViewActivity</string>
+    <string name="title_activity_simple_cursor_adapter">SimpleCursorAdapterActivity</string>
+    <string name="title_activity_simple_adapter">SimpleAdapterActivity</string>
+    <string name="title_activity_my_list_view">MyListViewActivity</string>
+    <string name="title_activity_hong_yang_adapter">HongYangAdapterActivity</string>
 
 </resources>

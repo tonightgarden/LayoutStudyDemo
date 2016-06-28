@@ -2,6 +2,7 @@ package com.tg.layoutstudydemo.home;
 
 import com.tg.layoutstudydemo.R;
 import com.tg.layoutstudydemo.layout.activity.MainActivity;
+import com.tg.study.listview.SimapleListViewActivity;
 import com.tg.widgets.study.activity.WidgetsStudyActivity;
 
 import android.app.Activity;
@@ -38,6 +39,9 @@ public class StudyHomeActivity extends Activity {
 					break;
 				case 1:
 					toActivity(WidgetsStudyActivity.class);
+					break;
+				case 2:
+					toActivity(SimapleListViewActivity.class);
 					break;
 
 				default:
